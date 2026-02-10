@@ -29,13 +29,13 @@
 
 -  	For testing, I used Jest framework for running my test suites and handling assertions for both unit tests and integration tests since It is suitable for testing frontend components as well as backend logic (API routes).
 
-- I have implemented the first Dashboard screen, which provides an overview of
+<!-- - I have implemented the first Dashboard screen, which provides an overview of
 client portfolios, asset allocation, and performance metrics.
 
 
 - All images are sourced from Carbon.
 
-- I imported the 'IBM Plex Mono' and 'IBM Plex Sans' Google Fonts to align with the font guidelines.
+- I imported the 'IBM Plex Mono' and 'IBM Plex Sans' Google Fonts to align with the font guidelines. -->
 
 - Initially, I used Next.js’s built-in API routing feature to create API routes directly within the application, as it efficiently handles data fetching and processing. However, following the test document request, I later set up a Node server and switched the routing.
 
@@ -69,7 +69,7 @@ This approach ensures that calculations are completed more quickly, leading to a
 - The Frontend runs on localhost:3000
 - The Backend runs on localhost:5000
 
-*[For additional assurance, please refer to the main branches of the submodules where outdated files have been omitted]*
+<!-- *[For additional assurance, please refer to the main branches of the submodules where outdated files have been omitted]* -->
 
 ### F. Link
    [Github]
