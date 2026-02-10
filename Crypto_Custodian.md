@@ -33,9 +33,9 @@
 client portfolios, asset allocation, and performance metrics.
 
 
-- All images are sourced from Carbon as specified in the Brand Book.
+- All images are sourced from Carbon.
 
-- I imported the 'IBM Plex Mono' and 'IBM Plex Sans' Google Fonts to align with the font guidelines in the Brand Book.
+- I imported the 'IBM Plex Mono' and 'IBM Plex Sans' Google Fonts to align with the font guidelines.
 
 - Initially, I used Next.js’s built-in API routing feature to create API routes directly within the application, as it efficiently handles data fetching and processing. However, following the test document request, I later set up a Node server and switched the routing.
 
@@ -57,7 +57,7 @@ This approach ensures that calculations are completed more quickly, leading to a
 2. Reducing the data payload transferred between the client and the server, as the server returns pre-calculated results rather than raw transaction data.
 3. Maintaining a clear separation of concerns, with the server handling data processing and the frontend focusing on presentation and user interaction.
 
-__Important__ Please note that I had rough time finding my MySQL database password as it had been a long time since I last used it. The standard password "mysql" did not work for the user "root". So I tried to do the data saving testing within the server files. Please excuse the db check files structure. 
+<!-- __Important__ Please note that I had rough time finding my MySQL database password as it had been a long time since I last used it. The standard password "mysql" did not work for the user "root". So I tried to do the data saving testing within the server files. Please excuse the db check files structure.  -->
 
 
 *On the Tests*
