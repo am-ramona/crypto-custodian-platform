@@ -37,9 +37,11 @@ client portfolios, asset allocation, and performance metrics.
 
 - I imported the 'IBM Plex Mono' and 'IBM Plex Sans' Google Fonts to align with the font guidelines. -->
 
-- Initially, I used Next.js’s built-in API routing feature to create API routes directly within the application, as it efficiently handles data fetching and processing. However, following the test document request, I later set up a Node server and switched the routing.
+<!-- - Initially, I used Next.js’s built-in API routing feature to create API routes directly within the application, as it efficiently handles data fetching and processing. This is especially performant for small applications. However, in service of scalability, I later set up a Node server and switched the routing. -->
 
-- The app is currently responsive & cross-browser compatible with : Firefox, Chrome, Edge and Brave
+- I initially used Next.js built-in API routes for fast, in-app data fetching and simple development (ideal for small apps), but as scalability and flexibility became priorities I migrated routing to a dedicated Node server to provide a more robust, scalable architecture.
+
+- The app is currently responsive & cross-browser compatible with : Firefox, Chrome, Edge, Brave, Opera and Safari
 
 
 *On the Backend*
