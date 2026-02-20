@@ -23,22 +23,23 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
+    <li> <a href="#about-the-project">About The Project</a></li>
         <li><a href="#why-this-project-matters">Why This Project Matters</a></li>
-        <li><a href="#system-architecture">System Architecture</a></li>
+        <!-- <li><a href="#system-architecture">System Architecture</a></li> -->
         <!-- <li><a href="#my-contribution">My Contribution </a></li> -->
-         <li><a href="#web3-analytics-engine">Web3 Analytics Engine</a></li>
         <li><a href="#key-features">Key Features</a></li>
+        <li><a href="#web3-analytics-engine">Web3 Analytics Engine</a></li>
+        <li><a href="#architecture-overview">Architecture Overview</a>
+           <ul>
+              <li><a href="#system-overview">System Overview</a></li>
+               <li><a href="#core-components">Core Components</a></li>
+               <li><a href="#data-flow">Data Flow</a></li>
+               <li><a href="#architecture-highlights">Architecture Highlights</a></li>
+           </ul>
+        </li>
+         <li><a href="#repositories">Repositories</a></li>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#architecture-overview">Architecture Overview</a></li>
-        <li><a href="#architecture-highlights">Architecture Highlights</a></li>
-        <li><a href="#example-workflow">Example Workflow</a></li>
-        <li><a href="#what-i-learned">What I Learned</a></li>
-        <li><a href="#repositories">Repositories</a></li>
-      </ul>
-    </li>
+         <li><a href="#what-i-learned">What I Learned</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -66,7 +67,7 @@ Built as part of the CryptoCustodian project architecture to demonstrate real-wo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Why This Project Matters
+## Why This Project Matters
 
 Managing digital assets requires clarity, performance, and trust.
 
@@ -81,19 +82,7 @@ It reflects the kind of systems used by DAO treasuries, custodians, and Web3 ass
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Repositories
-
-This project is organized into three repositories:
-
-* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js React dashboard
-* [crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js analytics API
-* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, documentation, orchestration
-
-Each repo demonstrates a different layer of a production Web3 system.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Key Features
+## Key Features
 
 🔹 <b>Portfolio Analytics Dashboard</b>
 
@@ -123,9 +112,120 @@ Each repo demonstrates a different layer of a production Web3 system.
 * CI-ready project structure
 * Clean architecture separation
 
+<!-- 
+* Portfolio Analytics Dashboard – real-time asset allocation, multi-token tracking, interactive charts (Chart.js + D3).
+
+* Web3 Analytics Engine – converts raw Ethereum transactions into portfolio, allocation, and performance metrics.
+
+* Production-Grade Frontend – scalable Next.js + TypeScript architecture with performance-optimized UX.
+
+* API-Driven Backend – Node.js + Express analytics APIs with Sequelize persistence and clean contracts.
+
+Engineering Quality – unit & integration testing, ESLint + Prettier + Husky, CI-ready structure. -->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Web3 Analytics Engine
+
+Designed a production-style on-chain portfolio analytics pipeline that transforms raw Ethereum transaction data (via Etherscan APIs) into actionable treasury insights for DAO-grade dashboards.
+
+<b>Core modules</b>
+
+* Portfolio engine → token balances
+* Allocation engine → diversification metrics
+* Performance engine → gas usage, activity, efficiency analytics
+
+Built to mirror real custody, treasury, and digital asset management systems, turning complex blockchain data into fast, intuitive user insights.
+
+👉 Full implementation in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b>.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Architecture Overview
+
+#### System Overview
+<!-- ![Product Architecture Screen Shot][architecture-screenshot] -->
+```
+Frontend (Next.js + TypeScript)
+        ↓
+API Layer (Node.js + Express + Sequelize)
+        ↓
+On-Chain Data (Ethereum) + Off-chain Processing
+        ↓
+Portfolio Intelligence & Reporting UX
+```
+
+A modular full-stack Web3 analytics platform that ingests raw Ethereum transactions, computes portfolio intelligence, and delivers a high-performance digital-asset dashboard.
+
+<!-- <b>The repository contains:</b>
+
+* Portfolio Dashboard Frontend
+* API & Data Integration Layer
+* Testing Infrastructure
+* Architecture Documentation
+
+<b>Sub-repos:</b>
+
+* crypto-custodian-dashboard
+* crypto-custodian-api -->
+
+#### 🔹 Core Components
+
+1. <b>Frontend Platform</b> -  Next.js + TypeScript
+
+* Real-time portfolio visualization
+* Accessible component-driven design system
+* Optimized Core Web Vitals
+* Chart.js + D3-scale analytics UI
+
+1. <b>Backend Analytics API</b> - Node.js + Express 
+
+* Portfolio computation engine
+* Asset allocation engine
+* Performance metrics engine
+* REST API layer with Sequelize ORM (SQLite/MySQL)
+
+1. <b>Web3 Data Pipeline</b>
+
+* Transaction ingestion via Etherscan API
+* Data normalization → analytics → aggregation
+* Token-level analytics & metrics
+
+#### 🔹 Data Flow
+
+1. Fetch on-chain transactions via Etherscan API
+2. Normalize & process portfolio state
+3. Compute allocation & performance metrics
+4. Store processed data
+5. Serve insights via REST API
+6. Render optimized UI dashboard ( Charts & Views )
+
+#### 🔹 Architecture Highlights
+
+✔ Modular full-stack architecture<br />
+✔ Real-time data-heavy UI workflows<br />
+✔ Clear separation of concerns<br />
+✔ Clean API-driven frontend<br />
+✔ Production-grade performance-first dashboard UX<br />
+✔ Scalable Web3 analytics pipeline<br />
+✔ Production-ready engineering practices<br />
+✔ Testing-first engineering
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Repositories
+
+This project is organized into three repositories:
+
+* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js React dashboard
+* [crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js analytics API
+* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, documentation, orchestration
+
+Each repo demonstrates a different layer of a production Web3 system.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Built With
 
 #### Frontend
 
@@ -161,97 +261,7 @@ Each repo demonstrates a different layer of a production Web3 system.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Architecture Overview
-
-#### System Overview
-<!-- ![Product Architecture Screen Shot][architecture-screenshot] -->
-```
-Frontend (Next.js + TypeScript)
-        ↓
-API Layer (Node.js + Express + Sequelize)
-        ↓
-Blockchain Data Sources + Off-chain Analytics
-        ↓
-Portfolio Dashboard & Reporting UX
-```
-
-A modular full-stack Web3 analytics platform that ingests on-chain data, computes portfolio intelligence, and delivers a high-performance dashboard UI for digital asset management.
-
-<b>The repository contains:</b>
-
-* Portfolio Dashboard Frontend
-* API & Data Integration Layer
-* Testing Infrastructure
-* Architecture Documentation
-
-<b>Sub-repos:</b>
-
-* crypto-custodian-dashboard
-* crypto-custodian-api
-
-#### 🔹 Core Components
-
-1. <b>Frontend Platform</b>
-
-* Next.js + TypeScript dashboard
-* Real-time portfolio visualization
-* Accessible design system
-* Optimized Core Web Vitals
-* Chart.js + D3-scale analytics UI
-
-2. <b>Backend Analytics API</b>
-
-* Node.js + Express services
-* Portfolio calculation engine
-* Asset allocation engine
-* Performance metrics engine
-* Sequelize ORM (SQLite/MySQL)
-* REST API layer
-
-3. <b>Web3 Data Pipeline</b>
-
-* Transaction ingestion via Etherscan API
-* Normalization → analytics → aggregation
-* Token-level analytics & metrics
-
-#### 🔹 Data Flow
-
-1. Fetch on-chain transactions via Etherscan API
-2. Normalize & process portfolio state
-3. Compute allocation & performance metrics
-4. Store processed data
-5. Serve insights via REST API
-6. Render optimized UI dashboard ( Charts & Views )
-
-#### 🔹 Architecture Highlights
-
-✔ Modular full-stack architecture<br />
-✔ Real-time data-heavy UI workflows<br />
-✔ Clear separation of concerns<br />
-✔ Clean API-driven frontend<br />
-✔ Production-grade performance-first mindset<br />
-✔ Scalable Web3 analytics pipeline<br />
-✔ Production-ready engineering practices  
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Web3 Analytics Engine
-
-Designed a production-style on-chain portfolio analytics pipeline that transforms raw Ethereum transaction data (via Etherscan APIs) into actionable treasury insights for DAO-grade dashboards.
-
-<b>Core modules</b>
-
-* Portfolio engine → token balances
-* Allocation engine → diversification metrics
-* Performance engine → gas usage, activity, efficiency analytics
-
-Built to mirror real custody, treasury, and digital asset management systems, turning complex blockchain data into fast, intuitive user insights.
-
-👉 Full implementation in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b>.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### What I Learned
+## What I Learned
 
 * Designing Web3 analytics pipelines
 * Translating on-chain data into user insights
