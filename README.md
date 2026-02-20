@@ -111,7 +111,7 @@ Returns:
 * ```tokenSymbol```
 * ```amount```
 
-Used for wallet summaries and treasury dashboards.
+<!-- Used for wallet summaries and treasury dashboards. -->
 
 Purpose:
 
@@ -129,7 +129,7 @@ Returns:
 * ```tokenSymbol```
 * ```allocationPercentage```
 
-Used for diversification analysis and risk visualization.
+<!-- Used for diversification analysis and risk visualization. -->
 
 Purpose:
 
@@ -139,8 +139,8 @@ Purpose:
 
 🔹 <strong>3. Performance Metrics Engine</strong>
 
-Computes activity and efficiency metrics:
-Aggregates transaction-level analytics into portfolio performance insights.
+Computes activity and efficiency metrics.
+<!-- Aggregates transaction-level analytics into portfolio performance insights. -->
 
 Returns:
 
@@ -154,7 +154,7 @@ Returns:
 * ```minGasUsed```
 * ```errorRate```
 
-Used for treasury performance monitoring and cost optimization.
+<!-- Used for treasury performance monitoring and cost optimization. -->
 
 Purpose:
 
