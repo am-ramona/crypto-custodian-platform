@@ -167,19 +167,37 @@ Purpose:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ### Key Features
+### Key Features
 
-<ul>
-<li>AI-generated NFT assets using Pollinations AI</li>
-<li>Smart contract minting with Solidity + Hardhat</li>
-<li>Wallet interaction via Ethers.js</li>
-<li>IPFS storage via Pinata</li>
-<li>Full-stack architecture (frontend + backend + smart contracts)</li>
-<li>Responsive UI with loading/error states</li>
-<li>Scalable minting workflow with clear user feedback</li>
-</ul>
+🔹 <b>Portfolio Analytics Dashboard</b>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+* Real-time asset allocation visualization
+* Multi-token portfolio tracking
+* Chart-driven UX using Chart.js & D3 scale
+* Data-intensive dashboard optimization
+
+🔹 <b>Scalable API Architecture</b>
+
+* REST APIs with Node.js + Express
+* Sequelize ORM with SQLite / MySQL
+* Asset analytics aggregation layer
+* Middleware-based request handling
+
+🔹 <b>Production-Grade Frontend Architecture</b>
+
+* Next.js + TypeScript App Router
+* Component-driven design system approach
+* Performance-optimized rendering
+* Testing with Jest + UI testing
+
+🔹 <b>Engineering Quality</b>
+
+* Unit + integration testing
+* ESLint + Prettier + Husky
+* CI-ready project structure
+* Clean architecture separation
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -219,11 +237,28 @@ Purpose:
 
 ### Architecture Overview
 
-![Product Architecture Screen Shot][architecture-screenshot]
+<!-- ![Product Architecture Screen Shot][architecture-screenshot] -->
+```
+Frontend (Next.js + TypeScript)
+        ↓
+API Layer (Node.js + Express + Sequelize)
+        ↓
+Blockchain Data Sources + Off-chain Analytics
+        ↓
+Portfolio Dashboard & Reporting UX
+```
 
-* Frontend → Smart Contract interaction
-* Backend → IPFS + AI generation
-* Wallet → Transaction signing
+The repository contains:
+
+* Portfolio Dashboard Frontend
+* API & Data Integration Layer
+* Testing Infrastructure
+* Architecture Documentation
+
+Sub-repos:
+
+* crypto-custodian-dashboard
+* crypto-custodian-api
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
