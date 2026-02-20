@@ -58,10 +58,10 @@
 <!-- ![Product Name Screen Shot][mobile-screenshot] -->
 <!-- ![Product Name Screen Shot][mobile2-screenshot] -->
 <div style="display: flex; gap: 16px;">
- <div style="flex: 1; min-width: 0;">
+ <div style="flex: 0 0 50%; max-width: 50%;">
 <img src="images/crypto-custodian-mobile.png" alt="Crypto Custodian Mobile" width="320" /></div>
 
- <div style="flex: 1; min-width: 0;">
+ <div style="flex: 0 0 50%; max-width: 50%;">
 <img src="images/crypto-custodian-mobile-2.png" alt="Crypto Custodian Mobile" width="320" />
 </div>
 </div>
