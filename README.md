@@ -9,14 +9,14 @@
   <p align="center">
 A production-style crypto portfolio dashboard creating CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
     <br />
-    <a href="https://github.com/am-ramona/crypto-custodian-portfolio-dashboard"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/am-ramona/crypto-custodian-platform"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/am-ramona/crypto-custodian-portfolio-dashboard">View Demo</a>
+    <a href="https://github.com/am-ramona/crypto-custodian-platform">View Demo</a>
     &middot;
-    <a href="https://github.com/am-ramona/crypto-custodian-portfolio-dashboard/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/am-ramona/crypto-custodian-platform/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/am-ramona/crypto-custodian-portfolio-dashboard/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/am-ramona/crypto-custodian-platform/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -304,7 +304,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * [ ] Gas optimization recommendations
 * [ ] Wallet clustering analysis
 
-See the [open issues](https://github.com/am-ramona/crypto-custodian-portfolio-dashboard/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/am-ramona/crypto-custodian-platform/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
