@@ -6,8 +6,7 @@
 
   <h1 align="center">CryptoCustodian Platform</h3>
 
-  <p align="center">
-A production-style crypto portfolio dashboard creating CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
+  <p align="center">A modular full-stack Web3 portfolio analytics platform that transforms raw Ethereum transaction data into actionable portfolio intelligence. The system combines a scalable Next.js dashboard, Node.js analytics APIs, and on-chain data pipelines to deliver production-grade digital asset insights with performance-optimized UX.
     <br />
     <a href="https://github.com/am-ramona/crypto-custodian-platform"><strong>Explore the docs »</strong></a>
     <br />
@@ -59,10 +58,14 @@ A production-style crypto portfolio dashboard creating CryptoCustodian architect
 <!-- ![Product Name Screen Shot][mobile-screenshot] -->
 <!-- ![Product Name Screen Shot][mobile2-screenshot] -->
 <div style="display: flex; gap: 16px;">
-<img src="images/crypto-custodian-mobile.png" alt="Product Name Screen Shot" width="320" />
-<img src="images/crypto-custodian-mobile-2.png" alt="Product Name Screen Shot" width="320" />
+ <div style="flex: 1; min-width: 0;">
+<img src="images/crypto-custodian-mobile.png" alt="Crypto Custodian Mobile" width="320" /></div>
+
+ <div style="flex: 1; min-width: 0;">
+<img src="images/crypto-custodian-mobile-2.png" alt="Crypto Custodian Mobile" width="320" />
 </div>
-<span>Production-grade Web3 portfolio analytics platform combining a scalable React dashboard, API-driven on-chain analytics, and performance-focused UX for digital asset management.
+</div>
+<span>A production-style crypto portfolio dashboard creating CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
 <br/>
 Built as part of the CryptoCustodian project architecture to demonstrate real-world Web3 system design across frontend, backend, and data layers.</span>
 
