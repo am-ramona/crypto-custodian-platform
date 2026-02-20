@@ -115,9 +115,9 @@ Used for wallet summaries and treasury dashboards.
 
 Purpose:
 
-✔ Build accurate wallet holdings view
-✔ Support multi-token dashboards
-✔ Normalize heterogeneous on-chain data
+✔ Build accurate wallet holdings view <br />
+✔ Support multi-token dashboards  <br />
+✔ Normalize heterogeneous on-chain data  <br />
 
 
 🔹 <strong>2. Asset Allocation Engine</strong>
