@@ -56,8 +56,10 @@ A production-style crypto portfolio dashboard creating CryptoCustodian architect
 ## About The Project
 
 ![Product Name Screen Shot][desktop-screenshot] <!-- (https://url.com)  -->
-![Product Name Screen Shot][mobile-screenshot]
-![Product Name Screen Shot][mobile2-screenshot]
+<!-- ![Product Name Screen Shot][mobile-screenshot] -->
+<!-- ![Product Name Screen Shot][mobile2-screenshot] -->
+<img src="images/crypto-custodian-mobile.png" alt="Product Name Screen Shot" width="320" />
+<img src="images/crypto-custodian-mobile-2.png" alt="Product Name Screen Shot" width="320" />
 <span>Production-grade Web3 portfolio analytics platform combining a scalable React dashboard, API-driven on-chain analytics, and performance-focused UX for digital asset management.
 
 Built as part of the CryptoCustodian project architecture to demonstrate real-world Web3 system design across frontend, backend, and data layers.</span>
