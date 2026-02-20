@@ -311,7 +311,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 * [ ] Add Multi-chain portfolio support & analytics
 * [ ] Real-time websocket updates
 * [ ] Advanced performance & risk metrics
-* [ ] Wallet clustering analysis and anomaly detection
+* [ ] Wallet clustering analysis and anomaly detection (future analytics layer)
+* [ ] DAO treasury reporting dashboards & governance dashboards
 
 See the [open issues](https://github.com/am-ramona/crypto-custodian-platform/issues) for a full list of proposed features (and known issues).
 
