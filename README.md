@@ -93,78 +93,6 @@ Each repo demonstrates a different layer of a production Web3 system.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Web3 Analytics Engine
-
-On the API layer, I implemented a portfolio analytics pipeline that fetches on-chain data from Etherscan APIs and computes structured portfolio insights used by the dashboard UI.
-
-##### Key analytics modules
-
-🔹 <strong>1. Portfolio Calculation</strong>
-
-Transforms raw transaction history into a normalized portfolio summary.
-
-Returns:
-
-* ```tokenName```
-* ```tokenSymbol```
-* ```amount```
-
-<!-- Used for wallet summaries and treasury dashboards. -->
-
-Purpose:
-
-✔ Build accurate wallet holdings view <br />
-✔ Support multi-token dashboards  <br />
-✔ Normalize heterogeneous on-chain data  <br />
-
-
-🔹 <strong>2. Asset Allocation Engine</strong>
-
-Calculates token distribution across the portfolio.
-
-Returns:
-
-* ```tokenSymbol```
-* ```allocationPercentage```
-
-<!-- Used for diversification analysis and risk visualization. -->
-
-Purpose:
-
-✔ Visualize diversification<br />
-✔ Support DAO treasury decisions<br />
-✔ Power allocation charts in frontend<br />
-
-🔹 <strong>3. Performance Metrics Engine</strong>
-
-Computes activity and efficiency metrics.
-<!-- Aggregates transaction-level analytics into portfolio performance insights. -->
-
-Returns:
-
-* ```transactionCount```
-* ```totalGasUsed```
-* ```totalEtherTransferred```
-* ```tokenTransfers```
-* ```averageGasPrice```
-* ```averageTransactionValue```
-* ```maxGasUsed```
-* ```minGasUsed```
-* ```errorRate```
-
-<!-- Used for treasury performance monitoring and cost optimization. -->
-
-Purpose:
-
-✔ Measure wallet activity<br />
-✔ Analyze gas efficiency<br />
-✔ Detect abnormal transaction behavior<br />
-✔ Provide performance dashboards<br />
-
-👉 Full implementation details in <strong>crypto-custodian-api</strong> repo.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Key Features
 
 🔹 <b>Portfolio Analytics Dashboard</b>
@@ -235,6 +163,7 @@ Purpose:
 
 ### Architecture Overview
 
+#### System Overview
 <!-- ![Product Architecture Screen Shot][architecture-screenshot] -->
 ```
 Frontend (Next.js + TypeScript)
@@ -245,6 +174,8 @@ Blockchain Data Sources + Off-chain Analytics
         ↓
 Portfolio Dashboard & Reporting UX
 ```
+
+A modular full-stack Web3 analytics platform that ingests on-chain data, computes portfolio intelligence, and delivers a high-performance dashboard UI for digital asset management.
 
 The repository contains:
 
@@ -258,29 +189,69 @@ Sub-repos:
 * crypto-custodian-dashboard
 * crypto-custodian-api
 
+#### 🔹 Core Components
+
+1. <b>Frontend Platform</b>
+
+* Next.js + TypeScript dashboard
+* Real-time portfolio visualization
+* Accessible design system
+* Optimized Core Web Vitals
+* Chart.js + D3-scale analytics UI
+
+2. <b>Backend Analytics API</b>
+
+* Node.js + Express services
+* Portfolio calculation engine
+* Asset allocation engine
+* Performance metrics engine
+* Sequelize ORM (SQLite/MySQL)
+* REST API layer
+
+3. <b>Web3 Data Pipeline</b>
+
+* Transaction ingestion via Etherscan API
+* Normalization → analytics → aggregation
+* Token-level analytics & metrics
+
+#### 🔹 Data Flow
+
+1. Fetch on-chain transactions via Etherscan API
+2. Normalize & process portfolio state
+3. Compute allocation & performance metrics
+4. Store processed data
+5. Serve insights via REST API
+6. Render optimized UI dashboard ( Charts & Views )
+
+#### 🔹 Architecture Highlights
+
+✔ Modular full-stack architecture
+✔ Real-time data-heavy UI workflows
+✔ Clear separation of concerns
+✔ Clean API-driven frontend
+✔ Production-grade performance-first mindset
+✔ Scalable Web3 analytics pipeline
+✔ Production-ready engineering practices  
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Architecture Highlights
-  
-* Modular full-stack design
-* Real-time data-heavy UI workflows
-* Clear separation of concerns
-* Clean API-driven frontend
-* Scalable Web3 analytics pipeline
-* Performance-first UI
-* Production-ready engineering practices  
+### Web3 Analytics Engine
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Designed a production-style on-chain portfolio analytics pipeline that transforms raw Ethereum transaction data (via Etherscan APIs) into actionable treasury insights for DAO-grade dashboards.
 
-### Example Workflow
+<b>Core modules</b>
 
-1. Fetch wallet transactions via Etherscan API
-2. Compute portfolio analytics
-3. Store processed data
-4. Serve insights via REST API
-5. Render dashboard charts and allocation views
+• Portfolio engine → token balances
+• Allocation engine → diversification metrics
+• Performance engine → gas usage, activity, efficiency analytics
 
-This mirrors real Web3 custody platform pipelines.
+Built to mirror real custody, treasury, and digital asset management systems, turning complex blockchain data into fast, intuitive user insights.
+
+👉 Full implementation in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b>.
+
+
+
+👉 Full implementation details in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b> repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
