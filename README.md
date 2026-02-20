@@ -230,9 +230,10 @@ Purpose:
 ### Architecture Highlights
   
 * Modular full-stack design
+* Real-time data-heavy UI workflows
 * Clear separation of concerns
-* API-driven frontend
-* Scalable analytics layer
+* Clean API-driven frontend
+* Scalable Web3 analytics pipeline
 * Performance-first UI
 * Production-ready engineering practices  
 
