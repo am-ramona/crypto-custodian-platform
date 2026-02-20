@@ -61,7 +61,7 @@
 <img src="images/crypto-custodian-mobile-2.png" alt="Crypto Custodian Mobile" width="320" style="display:inline-block;" />
 
 <span>A production-style crypto portfolio dashboard creating CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
-<br/>
+<br/><br />
 Built as part of the CryptoCustodian project architecture to demonstrate real-world Web3 system design across frontend, backend, and data layers.</span>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
