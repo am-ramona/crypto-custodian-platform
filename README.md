@@ -158,10 +158,10 @@ Used for treasury performance monitoring and cost optimization.
 
 Purpose:
 
-✔ Measure wallet activity
-✔ Analyze gas efficiency
-✔ Detect abnormal transaction behavior
-✔ Provide performance dashboards
+✔ Measure wallet activity<br />
+✔ Analyze gas efficiency<br />
+✔ Detect abnormal transaction behavior<br />
+✔ Provide performance dashboards<br />
 
 👉 Full implementation details in <strong>crypto-custodian-api</strong> repo.
 
