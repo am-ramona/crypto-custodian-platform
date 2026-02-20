@@ -307,11 +307,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 <!-- - [x] Add Changelog -->
-* [ ] Multi-chain analytics
+* [ ] Expand dashboard modules (Transactions, Risk Analytics, Alerts)
+* [ ] Add Multi-chain portfolio support & analytics
 * [ ] Real-time websocket updates
-* [ ] Advanced risk metrics
-* [ ] Gas optimization recommendations
-* [ ] Wallet clustering analysis
+* [ ] Advanced performance & risk metrics
+* [ ] Wallet clustering analysis and anomaly detection
 
 See the [open issues](https://github.com/am-ramona/crypto-custodian-platform/issues) for a full list of proposed features (and known issues).
 
