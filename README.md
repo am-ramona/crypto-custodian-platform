@@ -225,12 +225,12 @@ Sub-repos:
 
 #### 🔹 Architecture Highlights
 
-✔ Modular full-stack architecture
-✔ Real-time data-heavy UI workflows
-✔ Clear separation of concerns
-✔ Clean API-driven frontend
-✔ Production-grade performance-first mindset
-✔ Scalable Web3 analytics pipeline
+✔ Modular full-stack architecture<br />
+✔ Real-time data-heavy UI workflows<br />
+✔ Clear separation of concerns<br />
+✔ Clean API-driven frontend<br />
+✔ Production-grade performance-first mindset<br />
+✔ Scalable Web3 analytics pipeline<br />
 ✔ Production-ready engineering practices  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -241,17 +241,13 @@ Designed a production-style on-chain portfolio analytics pipeline that transform
 
 <b>Core modules</b>
 
-• Portfolio engine → token balances
-• Allocation engine → diversification metrics
-• Performance engine → gas usage, activity, efficiency analytics
+* Portfolio engine → token balances
+* Allocation engine → diversification metrics
+* Performance engine → gas usage, activity, efficiency analytics
 
 Built to mirror real custody, treasury, and digital asset management systems, turning complex blockchain data into fast, intuitive user insights.
 
 👉 Full implementation in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b>.
-
-
-
-👉 Full implementation details in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b> repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,9 +266,9 @@ Built to mirror real custody, treasury, and digital asset management systems, tu
 
 ### Prerequisites
 
-* Install [NodeJS](https://nodejs.org/en/)
-* Install [npm](https://nodejs.org/en/)
-* Install [Git](https://git-scm.com/)
+* Node.js
+* Npm
+* Git
 
 ### Installation
 
