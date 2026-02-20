@@ -128,14 +128,14 @@ Returns:
 
 * ```tokenSymbol```
 * ```allocationPercentage```
-* 
+
 Used for diversification analysis and risk visualization.
 
 Purpose:
 
-✔ Visualize diversification
-✔ Support DAO treasury decisions
-✔ Power allocation charts in frontend
+✔ Visualize diversification<br />
+✔ Support DAO treasury decisions<br />
+✔ Power allocation charts in frontend<br />
 
 🔹 <strong>3. Performance Metrics Engine</strong>
 
