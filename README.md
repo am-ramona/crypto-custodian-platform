@@ -6,7 +6,8 @@
 
   <h1 align="center">CryptoCustodian Platform</h3>
 
-  <p align="center">A modular full-stack Web3 portfolio analytics platform that transforms raw Ethereum transaction data into actionable portfolio intelligence. The system combines a scalable Next.js dashboard, Node.js analytics APIs, and on-chain data pipelines to deliver production-grade digital asset insights with performance-optimized UX.
+  <p align="center">
+  A production-grade full-stack Web3 portfolio analytics platform that ingests Ethereum transactions and delivers DAO-grade asset intelligence for digital asset custodians and treasury systems. Built end-to-end with a scalable Next.js dashboard, Node.js analytics APIs, and modular on-chain data pipelines.
     <br />
     <a href="https://github.com/am-ramona/crypto-custodian-platform"><strong>Explore the docs »</strong></a>
     <br />
@@ -26,7 +27,8 @@
     <li> <a href="#about-the-project">About The Project</a></li>
         <li><a href="#why-this-project-matters">Why This Project Matters</a></li>
         <!-- <li><a href="#system-architecture">System Architecture</a></li> -->
-        <!-- <li><a href="#my-contribution">My Contribution </a></li> -->
+        <li><a href="#my-contribution">My Contribution </a></li>
+        <li><a href="#project-metrics">Project Metrics</a></li>
         <li><a href="#key-features">Key Features</a></li>
         <li><a href="#web3-analytics-engine">Web3 Analytics Engine</a></li>
         <li><a href="#architecture-overview">Architecture Overview</a>
@@ -61,25 +63,9 @@
 <img src="images/crypto-custodian-mobile.png" alt="Crypto Custodian Mobile" width="320" style="display:inline-block;" /></div>
 <img src="images/crypto-custodian-mobile-2.png" alt="Crypto Custodian Mobile" width="320" style="display:inline-block;" />
 
-<span>A production-style crypto portfolio dashboard creating CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
+<span>A production-style crypto portfolio dashboard implementing the CryptoCustodian architecture with intuitive UX, scalable Next.js frontend, API-driven Node Backend, real-time data visualization, and testing-first engineering.
 <br/><br />
 Built as part of the CryptoCustodian project architecture to demonstrate real-world Web3 system design across frontend, backend, and data layers.</span>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## My Contribution
-
-Designed and implemented the entire full-stack system end-to-end.
-
-* Architected modular Web3 analytics platform across 3 repositories  
-* Built scalable Next.js dashboard with real-time portfolio visualization  
-* Implemented Node.js analytics APIs with Sequelize data layer  
-* Designed Web3 analytics pipeline (portfolio, allocation, performance engines)  
-* Integrated Etherscan data ingestion and normalization workflow  
-* Implemented testing infrastructure (Jest + Supertest + UI tests)  
-* Defined architecture documentation and clean repo separation  
-
-This project demonstrates production-style Web3 system design across frontend architecture, backend analytics, and on-chain data processing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,6 +81,34 @@ This platform shows how to build a real production-style Web3 analytics system t
 * Maintains scalability and clean architecture
 
 It reflects the kind of systems used by DAO treasuries, custodians, and Web3 asset platforms.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## My Contribution
+
+I Designed and implemented the entire full-stack system end-to-end.
+
+* Architected modular Web3 analytics platform across 3 repositories  
+* Built scalable Next.js dashboard with real-time portfolio visualization  
+* Implemented Node.js analytics APIs with Sequelize data layer  
+* Designed Web3 analytics pipeline (portfolio, allocation, performance engines)  
+* Integrated Etherscan data ingestion and normalization workflow  
+* Implemented testing infrastructure (Jest + Supertest + UI tests)  
+* Defined architecture documentation and clean repo separation  
+
+This project demonstrates production-style Web3 system design across frontend architecture, backend analytics, and on-chain data processing.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project Metrics
+
+• Processed thousands of Ethereum transactions in test environments using Etherscan APIs  
+• Implemented 3 analytics engines transforming raw blockchain data into structured portfolio intelligence  
+• Designed modular architecture across 3 repositories with clean separation of concerns  
+• Reduced dashboard rendering latency via optimized data aggregation and API design  
+• Built reusable frontend architecture supporting complex multi-token portfolio visualization  
+• Implemented unit and integration tests across frontend and backend layers  
+• Designed API-driven architecture enabling scalable multi-chain extension in roadmap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
