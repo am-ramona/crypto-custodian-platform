@@ -245,10 +245,10 @@ A modular full-stack Web3 analytics platform that ingests raw Ethereum transacti
 
 ## Repositories
 
-This project is organized into three repositories:
+This project is organized into three modular services:
 
-* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js React dashboard
-* [crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js analytics API
+* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js analytics dashboard
+* [crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js portfolio analytics engine
 * [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, documentation, orchestration
 
 Each repo demonstrates a different layer of a production Web3 system.
