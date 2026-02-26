@@ -1,6 +1,0 @@
-{
-    "compilerOptions": {
-      "skipLibCheck": true, // Skip type checking of declaration files
-      "types": ["@testing-library/jest-dom"]
-    }
-  }

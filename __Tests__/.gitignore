@@ -35,3 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 Header.test.tsx
+
+/jest.config.ts
+/jest.setup.ts
+/package.json
+/package-lock.json
+/tsconfig.json
