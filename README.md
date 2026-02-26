@@ -4,7 +4,7 @@
 <br />
 <div align="center">
 
-  <h1 align="center">CryptoCustodian Platform</h3>
+  <h1 align="center">✨ CryptoCustodian! ✨</h3>
 
   <p align="center">
   A production-grade full-stack Web3 portfolio analytics platform that ingests Ethereum transactions and delivers DAO-grade asset intelligence for digital asset custodians and treasury systems. Built end-to-end with a scalable Next.js dashboard, Node.js analytics APIs, and modular on-chain data pipelines.
