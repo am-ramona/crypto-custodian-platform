@@ -46,7 +46,12 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#clone-the-plaform-with-submodules">Clone the Platform (with Submodules)</a></li>
+        <li><a href="#install-dependencies">Install Dependencies</a></li>
+        <li><a href="#run-the-platform">Run the Platform</a></li>
+        <li><a href="#verify-setup">Verify Setup</a></li>
+        <li><a href="#related-repositories">Related Repositories</a></li>
+        <li><a href="#developer-notes">Developer Notes</a></li>
       </ul>
     </li>
     <!-- <li><a href="#usage">Usage</a></li> -->
@@ -316,7 +321,7 @@ Each repository represents a layer of a production-style Web3 platform with clea
 Spin up the full CryptoCustodian Web3 analytics platform locally in minutes.
 This repo orchestrates a modular production-style system with dedicated Backend, Frontend, and Test suites.
 
-#### Prerequisites
+### Prerequisites
 
 * Node.js ≥ 18
 * npm ≥ 9
@@ -327,7 +332,7 @@ This repo orchestrates a modular production-style system with dedicated Backend,
 node -v && npm -v && git --version
 ```
 
-#### Clone the Platform (with Submodules)
+### Clone the Platform (with Submodules)
 
 1. This repository uses Git submodules for clean architecture separation.
 
@@ -344,7 +349,7 @@ If you already cloned without submodules:
    git submodule update --init --recursive
    ```
 
-#### Install Dependencies
+### Install Dependencies
 
 Each submodule is an independent production service.
 
@@ -362,7 +367,7 @@ npm install --prefix Frontend
 npm install --prefix __Tests__
 ```
 
-#### Run the Platform
+### Run the Platform
 
 You can start the platform in two ways:
 
@@ -397,7 +402,7 @@ cd __Tests__
 npm run test
 ```
 
-#### Verify Setup
+### Verify Setup
 
 After starting:
 
@@ -408,7 +413,7 @@ After starting:
 You now have a working DAO-grade crypto portfolio analytics platform running locally.
 
 
-#### Related Repositories
+### Related Repositories
 
 * [crypto-custodian-apis](https://github.com/am-ramona/crypto-custodian-apis) → Node.js analytics backend
 * [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard) → Next.js Web3 dashboard
@@ -416,7 +421,7 @@ You now have a working DAO-grade crypto portfolio analytics platform running loc
 
 Each repo contains advanced configuration and architecture notes.
 
-#### Developer Notes
+### Developer Notes
 
 * Submodules ensure clean separation of concerns across frontend, backend, and analytics engines.
 * Designed to mirror real-world Web3 custody and treasury systems.
