@@ -1,0 +1,10 @@
+{
+    "name": "crypto-custodian-platform",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "install:all": "npm install --prefix Backend && npm install --prefix Frontend && npm install --prefix __Tests__",
+        "start:all": "npm run dev --prefix Backend & npm run dev --prefix Frontend",
+        "test:all": "npm run test --prefix __Tests__"
+    }
+}

@@ -245,13 +245,15 @@ A modular full-stack Web3 analytics platform that ingests raw Ethereum transacti
 
 ## Repositories
 
-This project is organized into three modular services:
+CryptoCustodian is organized as a modular Web3 system:
 
-* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js analytics dashboard
-* [crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js portfolio analytics engine
+* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform) → Architecture, orchestration, and documentation
+* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js analytics dashboard UI
+* [crypto-custodian-apis](https://github.com/am-ramona/crypto-custodian-apis/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js portfolio analytics engine
 * [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, documentation, orchestration
+* [crypto-custodian-tests](https://github.com/am-ramona/crypto-custodian-tests/tree/3811c1d6a20606fbf3bec38d98ea0b646b0f9f2e) → Integration and UI testing suite
 
-Each repo demonstrates a different layer of a production Web3 system.
+Each repository represents a layer of a production-style Web3 platform with clear separation of concerns.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -311,23 +313,110 @@ Each repo demonstrates a different layer of a production Web3 system.
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Spin up the full CryptoCustodian Web3 analytics platform locally in minutes.
+This repo orchestrates a modular production-style system with dedicated Backend, Frontend, and Test suites.
+
 ### Prerequisites
 
-* Node.js
-* Npm
-* Git
+* Node.js ≥ 18
+* npm ≥ 9
+* Git ≥ 2.30
+  
+<b>Verify</b>:
+```
+node -v && npm -v && git --version
+```
 
-### Installation
+### Clone the Platform (with Submodules)
 
-1. Clone/Download and run each repository
+1. This repository uses Git submodules for clean architecture separation.
+
+Clone everything in one command:
    
 
    ```
-   git clone https://github.com/am-ramona/crypto-custodian-dashboard
-   git clone https://github.com/am-ramona/crypto-custodian-api
+   git clone --recurse-submodules https://github.com/am-ramona/crypto-custodian-platform.git
+   cd crypto-custodian-platform
    ```
-Follow each repo’s README.
 
+If you already cloned without submodules:
+   ```
+   git submodule update --init --recursive
+   ```
+
+### Install Dependencies
+
+Each submodule is an independent production service.
+
+
+<b>Fast install:</b>
+```
+npm run install:all
+```
+
+Or <b>manually</b>:
+
+```
+npm install --prefix Backend
+npm install --prefix Frontend
+npm install --prefix __Tests__
+```
+
+### Run the Platform
+
+Start the full stack locally:
+```
+npm run start:all
+```
+Or run services individually:
+
+##### Start Backend
+```
+cd Backend
+npm run dev
+```
+
+##### Start Frontend
+```
+cd Frontend
+npm run dev
+```
+
+##### Run Tests
+```
+cd __Tests__
+npm run test
+```
+
+OR
+```
+npm run start:all
+npm run test:all
+```
+### Verify Setup
+
+After starting:
+
+* Frontend → http://localhost:3000
+* Backend → API endpoints available locally
+* Tests → Jest integration suite passes
+
+You now have a working DAO-grade crypto portfolio analytics platform running locally.
+
+
+### Related Repositories
+
+* [crypto-custodian-apis](https://github.com/am-ramona/crypto-custodian-apis) → Node.js analytics backend
+* [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard) → Next.js Web3 dashboard
+* [crypto-custodian-tests](https://github.com/am-ramona/crypto-custodian-tests) → Integration & UI test suite
+
+Each repo contains advanced configuration and architecture notes.
+
+### Developer Notes
+
+* Submodules ensure clean separation of concerns across frontend, backend, and analytics engines.
+* Designed to mirror real-world Web3 custody and treasury systems.
+* CI-ready architecture with modular test pipelines.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
