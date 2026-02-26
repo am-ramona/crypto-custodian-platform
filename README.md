@@ -279,6 +279,13 @@ Each repo demonstrates a different layer of a production Web3 system.
 * Etherscan API
 * Ethereum transaction analytics
 
+#### Testing
+* Jest 
+* ts-jest
+
+#### DevOps:
+* Git submodules
+
 <!-- * [![React][React.js]][React-url]
 * [![Javascript][javascript.com]][Javascript-url]
 * [![Web3 UX flows][web3uxflows.js]][Web3UXFlows-url]
