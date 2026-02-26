@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config _tests_/jest.config.js",
+    "test": "jest --config __Tests__/jest.config.js",
     "test:verbose": "jest --verbose",
     "test:debug": "node --inspect ./node_modules/.bin/jest",
     "test:watch": "jest --watch",

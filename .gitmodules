@@ -6,7 +6,14 @@
     path = Backend
     url = https://github.com/am-ramona/CryptoCustodian-Backend.git
 
-[submodule "__Tests__"]
-    path = __Tests__
-    url = https://github.com/am-ramona/CryptoCustodian-Tests.git
+# [submodule "__Tests__"]
+#     path = __Tests__
+#     url = https://github.com/am-ramona/CryptoCustodian-Tests.git
 
+[submodule "__Tests__/CryptoCustodian_Tests"]
+path = __Tests__/CryptoCustodian_Tests
+url = https://github.com/am-ramona/CryptoCustodian-Tests.git
+[submodule "Tests/CryptoCustodian_Tests"]
+	path = Tests/CryptoCustodian_Tests
+	url = https://github.com/am-ramona/CryptoCustodian-Tests.git
+	branch = main
