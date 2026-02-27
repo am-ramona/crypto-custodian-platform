@@ -172,7 +172,7 @@ Designed a production-style on-chain portfolio analytics pipeline that transform
 
 Built to mirror real custody, treasury, and digital asset management systems, turning complex blockchain data into fast, intuitive user insights.
 
-👉 Full implementation in <b>[crypto-custodian-api](https://github.com/am-ramona/crypto-custodian-api)</b>.
+👉 Full implementation in <b>[crypto-custodian-apis](https://github.com/am-ramona/crypto-custodian-apis)</b>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
