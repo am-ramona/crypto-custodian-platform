@@ -323,7 +323,7 @@ This repo orchestrates a modular production-style system with dedicated Backend,
 
 ### Prerequisites
 
-* Node.js ≥ 18
+* Node.js = 18
 * npm ≥ 9
 * Git ≥ 2.30
   
