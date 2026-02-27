@@ -443,6 +443,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- - [x] Add Changelog -->
 * [ ] Expand dashboard modules (Transactions, Risk Analytics, Alerts)
+* [ ] Implement scalable server-side pagination, sorting and filtering for high volume tables, with React Query caching
 * [ ] Add Multi-chain portfolio support & analytics
 * [ ] Real-time websocket updates
 * [ ] Advanced performance & risk metrics
