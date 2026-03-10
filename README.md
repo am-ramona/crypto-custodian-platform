@@ -252,10 +252,9 @@ A modular full-stack Web3 analytics platform that ingests raw Ethereum transacti
 
 CryptoCustodian is organized as a modular Web3 system:
 
-* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform) → Architecture, orchestration, and documentation
+* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, orchestration, and documentation
 * [crypto-custodian-dashboard](https://github.com/am-ramona/crypto-custodian-dashboard/tree/d15c9a27b116d92128529210ee51098ffe650542) → Next.js analytics dashboard UI
 * [crypto-custodian-apis](https://github.com/am-ramona/crypto-custodian-apis/tree/afad33fa4102cc4667ea32121901776ec0512399) → Node.js portfolio analytics engine
-* [crypto-custodian-platform](https://github.com/am-ramona/crypto-custodian-platform/tree/main) → Architecture, documentation, orchestration
 * [crypto-custodian-tests](https://github.com/am-ramona/crypto-custodian-tests/tree/3811c1d6a20606fbf3bec38d98ea0b646b0f9f2e) → Integration and UI testing suite
 
 Each repository represents a layer of a production-style Web3 platform with clear separation of concerns.
